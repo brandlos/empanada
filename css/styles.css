@@ -1,5 +1,5 @@
 h1 {
-    font-family: "Carrois Gothic SC", sans-serif;
+    font-family: "Rubik Mono One", sans-serif;
 }
 
 .jumbotron {
@@ -8,7 +8,7 @@ h1 {
 }
 
 .bkln {
-    font-family: "League Script", cursive;
+    font-family: "Almendra Display", cursive;
     font-size: 72px;
 }
 
@@ -22,7 +22,7 @@ a:hover {
 }
 
 nav {
-    font-family: "Carrois Gothic SC", sans-serif;
+    font-family: "Rubik Mono One", sans-serif;
     background-color: #536872;
     border-bottom: 1px solid black;
     color: black;
