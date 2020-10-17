@@ -5,8 +5,9 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
-    <link href="https://fonts.googleapis.com/css2?family=Almendra+Display&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/styles.css"/>
 
     <title>The Empanada Project Brooklyn</title>
@@ -14,24 +15,24 @@
 
 <body>
 
-    <nav class="navbar navbar-light navbar-expand-sm sticky-top">
-        <a class="navbar-brand" href="#">EPB</a>
+    <nav class="navbar navbar-dark navbar-expand-sm sticky-top">
+        <a class="navbar-brand" href="#">B</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#epbNav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="epbNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#where">Where?</a>
+                    <a class="nav-link" href="#where">Where</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#menus">Menus</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -44,7 +45,7 @@
                     <div class="row text-center">
                         <div class="col-12">
                             <h1>The<br/>Empanada<br/>Project</h1>
-                            <h1 class="bkln-top">Brooklyn</h1>
+                            <h1 class="bkln">Brooklyn</h1>
                         </div>
                         <div class="col-12">
                             <p>Buena comida boricua in your neighborhood. :)<br/>Help us fry empanadas more often and keep a roof over our heads!</p>
@@ -72,18 +73,19 @@
             </div>
         </div>
     </header>
+
     <main>
-        <div class="container" id="where">
+        <div class="container mb-5" id="where">
             <div class="row">
                 <div class="col-12 my-5">
-                    <h2 class="bkln">Where Are We?</h2>
+                    <h2 class="where">Where Are We?</h2>
                 </div>
             </div>
             <div class="row row-content">
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-6">
-                            <h4>NOW: HappyFun Hideaway</h4>
+                            <h4 class="where">NOW: HappyFun Hideaway</h4>
                             <p>1211 Myrtle Ave<br/>Brooklyn, NY 11221</p>
                         </div>
                         <div class="col-6 map-responsive">
@@ -96,7 +98,7 @@
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-6">
-                            <h5>0CT 31: Middle Child</h5>
+                            <h5 class="where">OCT 31: Middle Child</h5>
                             <p>248 S 11th Street<br/>Philadelphia, PA 19107</p>
                         </div>
                         <div class="col-6 map-responsive">
@@ -108,7 +110,7 @@
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-6">
-                            <h5>NOV 02: Spice Finch</h5>
+                            <h5 class="where">NOV 02: Spice Finch</h5>
                             <p>220 S 17th Street<br/>Philadelphia, PA 19103</p>
                         </div>
                         <div class="col-6 map-responsive">
@@ -122,20 +124,67 @@
 
         <hr/>
 
-        <div class="container" id="menus">
+        <div class="container mb-5" id="menus">
             <div class="row">
                 <div class="col-12 my-5">
-                    <h2 class="bkln">Menus</h2>
+                    <h2 class="menus">Menus</h2>
                 </div>
             </div>
-            <div class="row row-content">
-                <div class="col-6">
-                    <h5><a href="#">CURRENT OFFERINGS</a></h5>
+            <div class="row row-content justify-content-around">
+                <div class="col-md-5 col-sm-6">
+                    <h5 class="menus"><a href="#">CURRENT OFFERINGS</h5>
+                    <img src="/img/chicken.jpg" class="mb-2"></a>
                     <p>What's on at the moment?</p>
                 </div>
-                <div class="col-6">
-                    <h5><a href="#">PERMANENT MENU</a></h5>
+                <div class="col-md-5 col-sm-6">
+                    <h5 class="menus"><a href="#">PERMANENT MENU</h5>
+                    <img src="img/creamcheese.jpg" class="mb-2"></a>
                     <p>See what we're always frying.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr/>
+
+        <div class="container mb-5" id="about">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="about">About The Project</h2>
+                </div>
+            </div>
+            <div class="row row-content justify-content-center">
+                <div class="col">
+                    <div class="media">
+                        <img src="img/biopic.png" class="mr-3 mb-3" alt="Benny and Drew." width="50%">
+                        <div class="media-body">
+                            <h5 class="about">Who Runs This?</h5>
+                            <p>Benny and Drew, lorem ipsum blah blah blah etc.</p>
+                            <h5 class="about">What Do They Make?</h5>
+                            <p>Food, comida, blah blah</p>
+                            <h5 class="about">How Long Has It Been?</h5>
+                            <p>I don't know. A year?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr/>
+
+        <div class="container mb-5" id="contact">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="contact">Keep In Touch</h2>
+                </div>
+            </div>
+            <div class="row row-content justify-content-center">
+                <div class="col-md-4 text-center mb-3">
+                    <h1 class="contact"><a href="https://www.instagram.com/the_empanada_project_bk/"><span class="fa fa-instagram fa-lg"></span></h5>
+                    <h5 class="contact">Instagram</a></h5>
+                </div>
+                <div class="col-md-4 text-center mb-3">
+                    <h1 class="contact"><a href="tel:+16467197031"><span class="fa fa-mobile fa-lg"></span></h1>
+                    <h5 class="contact">Reach Benny at:<br/>(616) 719 – 7031</a></h5>
                 </div>
             </div>
         </div>

@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/brandlos/empanada/issues"
   },
-  "homepage": "https://github.com/brandlos/empanada#readme"
+  "homepage": "https://github.com/brandlos/empanada#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
 }

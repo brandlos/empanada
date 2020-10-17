@@ -3,7 +3,9 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Rubik Mono One", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 a, a:hover {
@@ -11,10 +13,9 @@ a, a:hover {
 }
 
 nav {
-    font-family: "Rubik Mono One", sans-serif;
-    background-color: #536872;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #2E997B;
     border-bottom: 1px solid black;
-    color: black;
 }
 
 img {
@@ -23,29 +24,41 @@ img {
 }
 
 body, main {
-    background-color: #F0F0F0;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #FFFED7;
 }
 
 .jumbotron {
-    background-image: url("/img/caseras-bg.jpg");
+    background-image: url("/img/epb01-head.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #98A2A7;
+    background-color: #2E997B;
     border-bottom: 1px solid black;
     color: white;
 }
 
-.bkln-top {
-    font-family: "Almendra Display", cursive;
+/* STYLING FOR EACH SECTION */
+.bkln {
+    font-family: "Arizonia", cursive;
     font-size: 5rem;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.where {
+    color: #4DB819;
+}
+.menus {
+    color: #C61B3D;
+}
+.about {
+    color: #4D4DFF;
+}
+.contact {
+    color: #D55F1D;
 }
 
-.bkln {
-    font-family: "Almendra Display", cursive;
-    font-size: 3em;
-}
 
 /* FOR GOOGLE MAP EMBEDDING */
 .map-responsive{
