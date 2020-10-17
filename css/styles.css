@@ -46,3 +46,18 @@ body, main {
     font-family: "Almendra Display", cursive;
     font-size: 3em;
 }
+
+/* FOR GOOGLE MAP EMBEDDING */
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
