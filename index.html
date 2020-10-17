@@ -14,18 +14,18 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm sticky-top">
+    <nav class="navbar navbar-light navbar-expand-sm sticky-top">
         <a class="navbar-brand" href="#">EPB</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#epbNav">
-            <span class="navbar-toggler-icon">#</span>
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="epbNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Where?</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#where">Where?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Menu</a>
+                    <a class="nav-link" href="#menus">Menus</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
@@ -38,32 +38,114 @@
     </nav>
 
     <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-md-6">
-                <a href="#"><h1>The<br/>Empanada<br/>Project</h1>
-                <h1 class="bkln">Brooklyn</h1></a>
-              </div>
-              <div class="col-md-6">
-                <h4>is currently at:</h4>
-                <iframe class="embed-responsive embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.9321935043313!2d-73.93374868435349!3d40.69749097933342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25c089616855d%3A0x46417ea123c7ac18!2sHappyfun%20Hideaway!5e0!3m2!1sen!2sus!4v1602896109931!5m2!1sen!2sus" width="100%" height="80%" frameborder="1" style="border:0;" allowfullscreen aria-hidden="false" tabindex="0"></iframe>
-              </div>
+        <div class="container" id="title">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <a href="#"><h1>The<br/>Empanada<br/>Project</h1>
+                            <h1 class="bkln">Brooklyn</h1></a>
+                        </div>
+                        <div class="col-12">
+                            <p>Buen comida boricua in your neighborhood. :)<br/>Help us fry empanadas more often and have a roof to live under!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+
+                <!-- CAROUSEL COMMENTED OUT HERE
+                    <div id="nadaPics" class="carousel slide carousel-fade" data-ride="carousel" style="width: 50%; height:50%; margin: 0 auto">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/img/caseras.jpg" class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/chicken.jpg" class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/creamcheese.jpg" class="d-block w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                -->
+                </div>
+            </div>
         </div>
     </header>
 
 
 
-    <body>
-        <div class="container">
+    <main>
+        <div class="container" id="where">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2>Where are we?</h2>
+                </div>
+            </div>
             <div class="row row-content">
-                <div class="col text-justify">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Conjunto de flechas de fútbol en vivo, excepto bienes raíces. También se necesita ahora. Barco de Japón, los empresarios necesitan una gran cantidad de proteínas, libros de texto de vehículos feos de maní, necesitan temer que a ella siempre le gustó la propaganda. Un cliente a menos que sea muy. Curabitur venenatis la puerta de la almohada. Desafortunadamente, diam. Nullam blandit massa mauris, vitae hendrerit nisl tincidunt calentamiento. Haga hincapié en las proteínas que las fuerzas del orden necesitan antioxidantes. El autor de un dui id urna amet suave, porttitor aliquet mauris venenatis. Sin embargo, en el momento de maní o triste o incluso gratis. Ningún valle embarazado latiendo. Mauris zanahorias gratis tiempo naranja.
-                    <br><br>
-                    Cada hora lorem, triplete de la vida del fútbol, ​​por favor, los desarrolladores de diámetro. Pero no accumsan mauris, quien a la pobreza extrema magna. Phasellus de un hotel, rhoncus velit ipsum, ut, tincidunt vitae felis. Precio clínico fijo tarea. Sin embargo, se estableció la nutrición a largo plazo. Recomendado que el nivel de desarrollador. Ahora y en el fin de semana del carcaj, los jugadores solo necesitan planificación. Pero el autor de la vida de la región.
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>NOW: HappyFun Hideaway</h4>
+                            <p>1211 Myrtle Ave<br/>Brooklyn, NY 11221</p>
+                        </div>
+                        <div class="col-6">
+                            <iframe class="mb-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.9321935043286!2d-73.93374868459551!3d40.69749097933348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25c089616855d%3A0x46417ea123c7ac18!2sHappyfun%20Hideaway!5e0!3m2!1sen!2sus!4v1602908817325!5m2!1sen!2sus" width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <h5>0CT 31: Middle Child</h5>
+                            <p>248 S 11th Street<br/>Philadelphia, PA 19107</p>
+                        </div>
+                        <div class="col-6">
+                            <iframe class="mb-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12234.966365126144!2d-75.16820925929837!3d39.94716947075798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c6266c4b02cf%3A0x658393018ef1e95e!2sMiddle%20Child!5e0!3m2!1sen!2sus!4v1602902750598!5m2!1sen!2sus" width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <h5>NOV 02: Spice Finch</h5>
+                            <p>220 S 17th Street<br/>Philadelphia, PA 19103</p>
+                        </div>
+                        <div class="col-6">
+                            <iframe class="mb-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12234.586308033302!2d-75.17811405929753!3d39.949294470753635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c7e7f02b9935%3A0x92a189ac61f91949!2sSpice%20Finch!5e0!3m2!1sen!2sus!4v1602902727828!5m2!1sen!2sus" width="100%" height="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <hr/>
+
+        <div class="container" id="menus">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2>Menus</h2>
+                </div>
+            </div>
+            <div class="row row-content">
+                <div class="col-6">
+                    <h5><a href="#">CURRENT OFFERINGS</a></h5>
+                    <p>What's on at the moment?</p>
+                </div>
+                <div class="col-6">
+                    <h5><a href="#">PERMANENT MENU</a></h5>
+                    <p>See what we're always frying.</p>
                 </div>
             </div>
         </div>
-    </body>
+
+        <hr/>
+
+    </main>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
