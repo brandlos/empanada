@@ -24,7 +24,7 @@ img {
 }
 
 body, main {
-    background-color: #98A2A7;
+    background-color: #F0F0F0;
 }
 
 .jumbotron {
@@ -38,7 +38,12 @@ body, main {
     color: white;
 }
 
+.bkln-top {
+    font-family: "Almendra Display", cursive;
+    font-size: 5rem;
+}
+
 .bkln {
     font-family: "Almendra Display", cursive;
-    font-size: 72px;
+    font-size: 3em;
 }
