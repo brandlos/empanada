@@ -2,10 +2,20 @@ html {
   scroll-behavior: smooth;
 }
 
+:target:before {
+    content: "";
+    display: block;
+    height: 50px;
+    margin: -50px 0 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
+}
+h2 {
+    text-align: center;
 }
 
 a, a:hover {
@@ -47,16 +57,16 @@ body, main {
     font-weight: normal;
 }
 .where {
-    color: #4DB819;
+    color: #D55F1D;
 }
 .menus {
     color: #C61B3D;
 }
 .about {
-    color: #4D4DFF;
+    color: #D55F1D;
 }
 .contact {
-    color: #D55F1D;
+    color: #C61B3D;
 }
 
 
