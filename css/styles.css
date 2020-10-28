@@ -22,6 +22,11 @@ a, a:hover {
     color: inherit;
 }
 
+hr {
+    border-color: black;
+    margin: 0 5em 0 5em;
+}
+
 nav {
     font-family: "Josefin Sans", sans-serif;
     background-color: #2E997B;
